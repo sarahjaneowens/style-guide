@@ -1,0 +1,115 @@
+* { 
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+p, h1, h2, h3, h4, li
+{
+        width: 100%;
+        max-width: 700px;
+        min-width: 320px;
+        font-family: 'Josefin Sans', sans-serif;
+        
+        margin: auto;   
+        background-colour: #fff;
+        color: #333;
+        line-height: 1.5em;
+    }
+
+/* --------------- HEADER ---------------- */ 
+
+
+
+
+header {
+    padding: 2em;
+    background-color:#515050;
+}
+
+h1 { color:#fff;
+    text-align: center;
+     font-size: 3.5em;
+font-weight: bold;}
+
+h2 {font-size: 2em;
+    color:#515050;}
+    
+    
+h3 { color:#515050;
+    }
+
+p { font-size: 1.5em;}
+
+.title {color:#fff;
+        text-align: center;
+        font-size: 2.3em; }
+
+.headerfont {
+    color: #fff; 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 15px;
+    text-align: center;
+    margin-left: 4px;}
+    
+ 
+div
+{
+    width: 680px;
+    text-align: center;
+    margin: auto;
+}
+
+#test {
+    margin-top: 25px;
+    font-size: 21px;
+    text-align: center;
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+/* --------------- IMAGES ---------------- */
+
+img { 
+      display: block; 
+      margin: 2em auto;}
+
+.visualmarque 
+{   max-width: 160px;
+    margin-top: -19.1em;
+    margin-bottom: 0.5em;}
+
+
+
+/*--------------------FOOTER---------------------*/
+
+
+footer p {font-size: 0.8em;
+        text-align: center;}
